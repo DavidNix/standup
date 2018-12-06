@@ -1,4 +1,5 @@
 [package]
+edition = "2018"
 name = "standup"
 version = "0.1.0"
 authors = ["David Nix <hello@davidnix.io>"]
@@ -8,3 +9,4 @@ clap = "~2.31.0"
 serde = "~1.0"
 dirs = "~1.0"
 chrono = "0.4.6"
+human-panic = "~1.0"

@@ -33,6 +33,10 @@ fn main() {
     }
 }
 
+
+// dialoguer
+// https://github.com/mitsuhiko/dialoguer/blob/master/examples/checkboxes.rs
+
 struct Cache {
     data: HashMap<u32, [String]>
 }
