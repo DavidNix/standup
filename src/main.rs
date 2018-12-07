@@ -1,9 +1,4 @@
-extern crate clap;
-extern crate dirs;
-extern crate chrono;
-
-#[macro_use]
-extern crate human_panic;
+use human_panic::setup_panic;
 
 use clap::{App, Arg, SubCommand};
 use std::collections::HashMap;
